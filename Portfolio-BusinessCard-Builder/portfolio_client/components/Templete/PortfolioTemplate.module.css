@@ -1,0 +1,115 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    color: #f37c41;
+    text-shadow: 2px 2px 4px rgba(237, 104, 104, 0.5);
+    margin-bottom: 10px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-info i {
+    font-size: 1.2em;
+  }
+
+.contact-info, .skills-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info::before, .skills-info::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contactSection h2 {
+    font-size: 2.5em;
+    color: #f37c41;
+    text-shadow: 2px 2px 4px rgba(237, 104, 104, 0.5);
+}
+
+
+.skills-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skillsList li {
+    background-color: #4d5967;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}

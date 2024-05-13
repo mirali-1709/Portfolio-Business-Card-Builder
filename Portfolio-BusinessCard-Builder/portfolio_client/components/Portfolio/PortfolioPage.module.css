@@ -1,0 +1,66 @@
+/* Header Styles */
+.header {
+    background-color: #e6baa6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Subheading Styles */
+  .subHeading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Templates Container Styles */
+  .templates {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Template Styles */
+  .template {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Template Image Styles */
+  .templateImage {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Select Button Styles */
+  .selectButton {
+    background-color: #f37c41;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selectButton:hover {
+    background-color: #f37c41;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #f37c41;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

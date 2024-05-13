@@ -1,0 +1,37 @@
+/* AllPortfoliosPage.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .portfolio {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolioName {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .portfolioAbout {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .viewDetails {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

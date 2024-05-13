@@ -13,25 +13,3 @@ Single-Page Portfolio: Customizable layout for showcasing skills and projects.
 Business Card Generator: Automatically designs professional business cards.
 PDF Download: Convenient download of portfolios and business cards in PDF format.
 
-Project Structure:
-
-Portfolio-Business-Card-Builder/
-│
-├── User-Side/
-│   ├── Landing-Page/
-│   ├── Signup-Login/
-│   ├── Dashboard/
-│   │   ├── Create-Portfolio/
-│   │   ├── Create-Business-Card/
-│   │   └── Fill-Form/
-│   └── PDF-Download/
-│
-└── Database/
-    └── portfolio-website-database.json
-
-Usage:
-
-Installation: Clone the repository and set up dependencies.
-Configuration: Set up Firebase database configurations.
-Run: Start the application server- npm start
-Usage: Sign up or log in, create portfolios or business cards, customize, and download in PDF format.
